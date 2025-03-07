@@ -1,0 +1,15 @@
+C:\Users\guilherme.carvalho3\source\repos\RecursividadeProgamação\RecursividadeProgamação\bin\Debug\net7.0\RecursividadeProgamação.exe
+C:\Users\guilherme.carvalho3\source\repos\RecursividadeProgamação\RecursividadeProgamação\bin\Debug\net7.0\RecursividadeProgamação.deps.json
+C:\Users\guilherme.carvalho3\source\repos\RecursividadeProgamação\RecursividadeProgamação\bin\Debug\net7.0\RecursividadeProgamação.runtimeconfig.json
+C:\Users\guilherme.carvalho3\source\repos\RecursividadeProgamação\RecursividadeProgamação\bin\Debug\net7.0\RecursividadeProgamação.dll
+C:\Users\guilherme.carvalho3\source\repos\RecursividadeProgamação\RecursividadeProgamação\bin\Debug\net7.0\RecursividadeProgamação.pdb
+C:\Users\guilherme.carvalho3\source\repos\RecursividadeProgamação\RecursividadeProgamação\obj\Debug\net7.0\RecursividadeProgamação.csproj.AssemblyReference.cache
+C:\Users\guilherme.carvalho3\source\repos\RecursividadeProgamação\RecursividadeProgamação\obj\Debug\net7.0\RecursividadeProgamação.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\guilherme.carvalho3\source\repos\RecursividadeProgamação\RecursividadeProgamação\obj\Debug\net7.0\RecursividadeProgamação.AssemblyInfoInputs.cache
+C:\Users\guilherme.carvalho3\source\repos\RecursividadeProgamação\RecursividadeProgamação\obj\Debug\net7.0\RecursividadeProgamação.AssemblyInfo.cs
+C:\Users\guilherme.carvalho3\source\repos\RecursividadeProgamação\RecursividadeProgamação\obj\Debug\net7.0\RecursividadeProgamação.csproj.CoreCompileInputs.cache
+C:\Users\guilherme.carvalho3\source\repos\RecursividadeProgamação\RecursividadeProgamação\obj\Debug\net7.0\RecursividadeProgamação.dll
+C:\Users\guilherme.carvalho3\source\repos\RecursividadeProgamação\RecursividadeProgamação\obj\Debug\net7.0\refint\RecursividadeProgamação.dll
+C:\Users\guilherme.carvalho3\source\repos\RecursividadeProgamação\RecursividadeProgamação\obj\Debug\net7.0\RecursividadeProgamação.pdb
+C:\Users\guilherme.carvalho3\source\repos\RecursividadeProgamação\RecursividadeProgamação\obj\Debug\net7.0\RecursividadeProgamação.genruntimeconfig.cache
+C:\Users\guilherme.carvalho3\source\repos\RecursividadeProgamação\RecursividadeProgamação\obj\Debug\net7.0\ref\RecursividadeProgamação.dll

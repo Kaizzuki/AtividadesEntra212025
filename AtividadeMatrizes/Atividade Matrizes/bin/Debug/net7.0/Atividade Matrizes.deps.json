@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "Atividade Matrizes/1.0.0": {
+        "runtime": {
+          "Atividade Matrizes.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Atividade Matrizes/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

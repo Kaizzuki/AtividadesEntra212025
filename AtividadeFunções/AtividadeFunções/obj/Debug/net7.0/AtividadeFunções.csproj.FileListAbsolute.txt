@@ -1,0 +1,15 @@
+C:\Users\guilherme.carvalho3\source\repos\AtividadeFunções\AtividadeFunções\obj\Debug\net7.0\AtividadeFunções.csproj.AssemblyReference.cache
+C:\Users\guilherme.carvalho3\source\repos\AtividadeFunções\AtividadeFunções\obj\Debug\net7.0\AtividadeFunções.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\guilherme.carvalho3\source\repos\AtividadeFunções\AtividadeFunções\obj\Debug\net7.0\AtividadeFunções.AssemblyInfoInputs.cache
+C:\Users\guilherme.carvalho3\source\repos\AtividadeFunções\AtividadeFunções\obj\Debug\net7.0\AtividadeFunções.AssemblyInfo.cs
+C:\Users\guilherme.carvalho3\source\repos\AtividadeFunções\AtividadeFunções\obj\Debug\net7.0\AtividadeFunções.csproj.CoreCompileInputs.cache
+C:\Users\guilherme.carvalho3\source\repos\AtividadeFunções\AtividadeFunções\bin\Debug\net7.0\AtividadeFunções.exe
+C:\Users\guilherme.carvalho3\source\repos\AtividadeFunções\AtividadeFunções\bin\Debug\net7.0\AtividadeFunções.deps.json
+C:\Users\guilherme.carvalho3\source\repos\AtividadeFunções\AtividadeFunções\bin\Debug\net7.0\AtividadeFunções.runtimeconfig.json
+C:\Users\guilherme.carvalho3\source\repos\AtividadeFunções\AtividadeFunções\bin\Debug\net7.0\AtividadeFunções.dll
+C:\Users\guilherme.carvalho3\source\repos\AtividadeFunções\AtividadeFunções\bin\Debug\net7.0\AtividadeFunções.pdb
+C:\Users\guilherme.carvalho3\source\repos\AtividadeFunções\AtividadeFunções\obj\Debug\net7.0\AtividadeFunções.dll
+C:\Users\guilherme.carvalho3\source\repos\AtividadeFunções\AtividadeFunções\obj\Debug\net7.0\refint\AtividadeFunções.dll
+C:\Users\guilherme.carvalho3\source\repos\AtividadeFunções\AtividadeFunções\obj\Debug\net7.0\AtividadeFunções.pdb
+C:\Users\guilherme.carvalho3\source\repos\AtividadeFunções\AtividadeFunções\obj\Debug\net7.0\AtividadeFunções.genruntimeconfig.cache
+C:\Users\guilherme.carvalho3\source\repos\AtividadeFunções\AtividadeFunções\obj\Debug\net7.0\ref\AtividadeFunções.dll
