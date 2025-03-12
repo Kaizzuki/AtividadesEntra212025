@@ -10,7 +10,7 @@ namespace ProgamaçãoOrientadaAObjeto
     {
         //Propriedades
         public string NomeProduto;
-        public double ValorProduto;
+        public decimal ValorProduto;
 
     }
 }

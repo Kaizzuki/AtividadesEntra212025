@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\guilherme.carvalho3\\source\\repos\\ProgamaçãoOrientadaAObjeto\\ProgamaçãoOrientadaAObjeto\\ProgamaçãoOrientadaAObjeto.csproj",
+      "projectUniqueName": "C:\\Users\\guilherme.carvalho3\\source\\repos\\AtividadesEntra212025\\ProgamaçãoOrientadaAObjeto\\ProgamaçãoOrientadaAObjeto\\ProgamaçãoOrientadaAObjeto.csproj",
       "projectName": "ProgamaçãoOrientadaAObjeto",
-      "projectPath": "C:\\Users\\guilherme.carvalho3\\source\\repos\\ProgamaçãoOrientadaAObjeto\\ProgamaçãoOrientadaAObjeto\\ProgamaçãoOrientadaAObjeto.csproj",
+      "projectPath": "C:\\Users\\guilherme.carvalho3\\source\\repos\\AtividadesEntra212025\\ProgamaçãoOrientadaAObjeto\\ProgamaçãoOrientadaAObjeto\\ProgamaçãoOrientadaAObjeto.csproj",
       "packagesPath": "C:\\Users\\guilherme.carvalho3\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\guilherme.carvalho3\\source\\repos\\ProgamaçãoOrientadaAObjeto\\ProgamaçãoOrientadaAObjeto\\obj\\",
+      "outputPath": "C:\\Users\\guilherme.carvalho3\\source\\repos\\AtividadesEntra212025\\ProgamaçãoOrientadaAObjeto\\ProgamaçãoOrientadaAObjeto\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

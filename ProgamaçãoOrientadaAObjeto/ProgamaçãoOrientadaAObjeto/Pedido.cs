@@ -14,9 +14,9 @@ namespace ProgamaçãoOrientadaAObjeto
         public List<Produto> Produtos = new List<Produto>();
 
         //Metodos
-        public double TotalPedido()
+        public decimal TotalPedido()
         {
-            double Total = 0.00;
+            decimal Total = 0.00m;
             foreach (Produto produto in Produtos)
             {
                 Total += produto.ValorProduto;
