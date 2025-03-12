@@ -43,7 +43,7 @@ namespace ProgamaçãoOrientadaAObjeto
                 {
                     escolhendo = false;
                 }
-
+                
             }
         }
 
@@ -52,12 +52,14 @@ namespace ProgamaçãoOrientadaAObjeto
             Pedido pedidoCadastrado = new Pedido();
             pedidoCadastrado.NumeroPedido = NumPedido;
 
-            Console.WriteLine("");
-            Console.WriteLine("Escolha um dos pedidos: ");
+            Console.WriteLine("Faça seu pedido");
+            Console.WriteLine("Escolha um dos produtos: ");
+            Console.WriteLine("------------");
             foreach (Produto produto in cardapio)
             {
                 Console.WriteLine($"{produto.NomeProduto}: R$ {produto.ValorProduto}");
             }
+            Console.WriteLine("------------");
 
             AdicionarProdutoPedido(pedidoCadastrado, cardapio);    
             
@@ -77,7 +79,7 @@ namespace ProgamaçãoOrientadaAObjeto
                     Console.WriteLine("");
                 }
 
-                Console.WriteLine("Deseja continuar adicionando pedidos? Sim ou não.");
+                Console.WriteLine("Deseja adicionar um novo pedido? Sim ou Não.");
 
                 string res;
                 do
@@ -97,7 +99,7 @@ namespace ProgamaçãoOrientadaAObjeto
         static void Main(string[] args)
         {
 
-            //Produtos
+            //Adicionar Produtos a lista
             Produto hambúrguer = new Produto();
             hambúrguer.NomeProduto = "X-Burguer";
             hambúrguer.ValorProduto = 15.00;
@@ -112,27 +114,10 @@ namespace ProgamaçãoOrientadaAObjeto
 
             List<Produto> cardapio = new List<Produto> {hambúrguer, batataFrita, refrigerante};
            
-            //Pedido
+            //Fazer pedido
             List<Pedido> listaPedidos = new List<Pedido>();
 
-            Pedido pedido1 = new Pedido();
-            pedido1.NumeroPedido = 1;
-            pedido1.Produtos.Add(hambúrguer);
-            pedido1.Produtos.Add(batataFrita);
-
-            Pedido pedido2 = new Pedido();
-            pedido2.NumeroPedido= 2;
-            pedido2.Produtos.Add(refrigerante);
-
-            //Exibindo
-            pedido1.ExibirPedido();
-            Console.WriteLine("");
-            pedido2.ExibirPedido();
-            Console.WriteLine("");
-
-
             AdicionarNovoPedido(listaPedidos, cardapio);
-
         }
     }
 }
