@@ -17,6 +17,28 @@ namespace Encapsulamento
 
         }
         
+        public override decimal Sacar(decimal saque)
+        {
+            try
+            {
+                if (saque < Saldo && saque > 0)
+                {
+                    Saldo = Saldo - saque - _taxaSaque; ;
+                    return Saldo;
+                }
+                else
+                {
+                    Console.WriteLine("Não é possivel sacar valor");
+                    throw new Exception("Saldo insuficiente");
+                }
+            }
+            catch (FormatException)
+            { Console.WriteLine("Formato inválido"); }
+            catch (Exception ex)
+            { Console.WriteLine(ex); }
+
+            return Saldo;
+        }
 
     }
 

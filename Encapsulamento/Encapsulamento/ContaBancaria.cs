@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Encapsulamento
 {
-    internal class ContaBancaria
+    public class ContaBancaria
     {
         //Dados Privados
 
@@ -35,23 +35,45 @@ namespace Encapsulamento
             this.NumeroConta= NumeroConta;
         }
 
-        public decimal Depositar()
+        public virtual decimal Depositar(decimal quantia)
         {
-            Console.WriteLine("Insira a quantidade que deseja depositar na sua conta");
-            decimal quantia = decimal.Parse(Console.ReadLine());
             Saldo += quantia;
-
             return _saldo;
         }
 
-        public decimal Sacar()
+        public virtual decimal Sacar(decimal saque)
         {
-            return _saldo;
+            try
+            {
+                if (saque < Saldo && saque > 0)
+                {
+                    return Saldo -= saque;
+                }
+                else
+                {
+                    Console.WriteLine("Não é possivel sacar valor");
+                    throw new Exception("Saldo insuficiente");
+                }
+            }   catch (FormatException) 
+                { Console.WriteLine("Formato inválido"); }
+                catch (Exception ex) 
+                { Console.WriteLine(ex); }
+
+            return Saldo;
         }
 
         public void ExibirSaldo()
         {
-            Console.WriteLine("R${0}",Saldo);
+            Console.WriteLine("{0} - R${1}",Titular,Saldo);
+        }
+
+        public void ExibirDados()
+        {
+            Console.WriteLine("---------");
+            Console.WriteLine("Titular: {0}", Titular);
+            Console.WriteLine("Numero da Conta: {0}", NumeroConta);
+            Console.WriteLine("Saldo atual: {0}", Saldo);
+            Console.WriteLine("---------");
         }
 
     }
