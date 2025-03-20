@@ -1,0 +1,15 @@
+C:\Users\guilherme.carvalho3\source\repos\AtividadesEntra212025\POO Ex 3 - Locadora de veículos\POO Ex 3 - Locadora de veículos\bin\Debug\net7.0\POO Ex 3 - Locadora de veículos.exe
+C:\Users\guilherme.carvalho3\source\repos\AtividadesEntra212025\POO Ex 3 - Locadora de veículos\POO Ex 3 - Locadora de veículos\bin\Debug\net7.0\POO Ex 3 - Locadora de veículos.deps.json
+C:\Users\guilherme.carvalho3\source\repos\AtividadesEntra212025\POO Ex 3 - Locadora de veículos\POO Ex 3 - Locadora de veículos\bin\Debug\net7.0\POO Ex 3 - Locadora de veículos.runtimeconfig.json
+C:\Users\guilherme.carvalho3\source\repos\AtividadesEntra212025\POO Ex 3 - Locadora de veículos\POO Ex 3 - Locadora de veículos\bin\Debug\net7.0\POO Ex 3 - Locadora de veículos.dll
+C:\Users\guilherme.carvalho3\source\repos\AtividadesEntra212025\POO Ex 3 - Locadora de veículos\POO Ex 3 - Locadora de veículos\bin\Debug\net7.0\POO Ex 3 - Locadora de veículos.pdb
+C:\Users\guilherme.carvalho3\source\repos\AtividadesEntra212025\POO Ex 3 - Locadora de veículos\POO Ex 3 - Locadora de veículos\obj\Debug\net7.0\POO Ex 3 - Locadora de veículos.csproj.AssemblyReference.cache
+C:\Users\guilherme.carvalho3\source\repos\AtividadesEntra212025\POO Ex 3 - Locadora de veículos\POO Ex 3 - Locadora de veículos\obj\Debug\net7.0\POO Ex 3 - Locadora de veículos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\guilherme.carvalho3\source\repos\AtividadesEntra212025\POO Ex 3 - Locadora de veículos\POO Ex 3 - Locadora de veículos\obj\Debug\net7.0\POO Ex 3 - Locadora de veículos.AssemblyInfoInputs.cache
+C:\Users\guilherme.carvalho3\source\repos\AtividadesEntra212025\POO Ex 3 - Locadora de veículos\POO Ex 3 - Locadora de veículos\obj\Debug\net7.0\POO Ex 3 - Locadora de veículos.AssemblyInfo.cs
+C:\Users\guilherme.carvalho3\source\repos\AtividadesEntra212025\POO Ex 3 - Locadora de veículos\POO Ex 3 - Locadora de veículos\obj\Debug\net7.0\POO Ex 3 - Locadora de veículos.csproj.CoreCompileInputs.cache
+C:\Users\guilherme.carvalho3\source\repos\AtividadesEntra212025\POO Ex 3 - Locadora de veículos\POO Ex 3 - Locadora de veículos\obj\Debug\net7.0\POO Ex 3 - Locadora de veículos.dll
+C:\Users\guilherme.carvalho3\source\repos\AtividadesEntra212025\POO Ex 3 - Locadora de veículos\POO Ex 3 - Locadora de veículos\obj\Debug\net7.0\refint\POO Ex 3 - Locadora de veículos.dll
+C:\Users\guilherme.carvalho3\source\repos\AtividadesEntra212025\POO Ex 3 - Locadora de veículos\POO Ex 3 - Locadora de veículos\obj\Debug\net7.0\POO Ex 3 - Locadora de veículos.pdb
+C:\Users\guilherme.carvalho3\source\repos\AtividadesEntra212025\POO Ex 3 - Locadora de veículos\POO Ex 3 - Locadora de veículos\obj\Debug\net7.0\POO Ex 3 - Locadora de veículos.genruntimeconfig.cache
+C:\Users\guilherme.carvalho3\source\repos\AtividadesEntra212025\POO Ex 3 - Locadora de veículos\POO Ex 3 - Locadora de veículos\obj\Debug\net7.0\ref\POO Ex 3 - Locadora de veículos.dll
