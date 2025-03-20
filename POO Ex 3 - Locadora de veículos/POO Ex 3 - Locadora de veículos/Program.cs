@@ -6,6 +6,8 @@ namespace POO_Ex_3___Locadora_de_veículos
     {
         static void Main(string[] args)
         {
+            Operador operador = new Operador();
+
             Carro carrinho = new Carro("Celta", "Chevrolet", 2009, 100.00m);
             Moto motoca = new Moto("Start", "Honda", 2016, 100.00m);
             Caminhao caminhone = new Caminhao("Constelation", "Volkswagen", 2019, 100.00m);
@@ -24,6 +26,10 @@ namespace POO_Ex_3___Locadora_de_veículos
             Console.WriteLine("O aluguel por 5 dias é {0}", caminhone.CalcularAluguel(5));
             Console.WriteLine("---");
 
+            operador.CadastrarNovoVeiculo();
         }
+
+
+
     }
 }
