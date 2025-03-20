@@ -69,11 +69,11 @@ namespace Encapsulamento
 
         public void ExibirDados()
         {
-            Console.WriteLine("---------");
+            
             Console.WriteLine("Titular: {0}", Titular);
             Console.WriteLine("Numero da Conta: {0}", NumeroConta);
             Console.WriteLine("Saldo atual: {0}", Saldo);
-            Console.WriteLine("---------");
+            
         }
 
     }

@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\gui\\source\\repos\\AtividadesEntra212025\\Encapsulamento\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{657EE3DA-07DA-4569-AD55-E060D4A40352}|Encapsulamento\\Encapsulamento.csproj|c:\\users\\gui\\source\\repos\\atividadesentra212025\\encapsulamento\\encapsulamento\\operacao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{657EE3DA-07DA-4569-AD55-E060D4A40352}|Encapsulamento\\Encapsulamento.csproj|solutionrelative:encapsulamento\\operacao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{657EE3DA-07DA-4569-AD55-E060D4A40352}|Encapsulamento\\Encapsulamento.csproj|c:\\users\\gui\\source\\repos\\atividadesentra212025\\encapsulamento\\encapsulamento\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{657EE3DA-07DA-4569-AD55-E060D4A40352}|Encapsulamento\\Encapsulamento.csproj|solutionrelative:encapsulamento\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{657EE3DA-07DA-4569-AD55-E060D4A40352}|Encapsulamento\\Encapsulamento.csproj|c:\\users\\gui\\source\\repos\\atividadesentra212025\\encapsulamento\\encapsulamento\\contacorrente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{657EE3DA-07DA-4569-AD55-E060D4A40352}|Encapsulamento\\Encapsulamento.csproj|solutionrelative:encapsulamento\\contacorrente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{657EE3DA-07DA-4569-AD55-E060D4A40352}|Encapsulamento\\Encapsulamento.csproj|c:\\users\\gui\\source\\repos\\atividadesentra212025\\encapsulamento\\encapsulamento\\contabancaria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{657EE3DA-07DA-4569-AD55-E060D4A40352}|Encapsulamento\\Encapsulamento.csproj|solutionrelative:encapsulamento\\contabancaria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{657EE3DA-07DA-4569-AD55-E060D4A40352}|Encapsulamento\\Encapsulamento.csproj|c:\\users\\gui\\source\\repos\\atividadesentra212025\\encapsulamento\\encapsulamento\\contapoupanca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{657EE3DA-07DA-4569-AD55-E060D4A40352}|Encapsulamento\\Encapsulamento.csproj|solutionrelative:encapsulamento\\contapoupanca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Operacao.cs",
+              "DocumentMoniker": "C:\\Users\\gui\\source\\repos\\AtividadesEntra212025\\Encapsulamento\\Encapsulamento\\Operacao.cs",
+              "RelativeDocumentMoniker": "Encapsulamento\\Operacao.cs",
+              "ToolTip": "C:\\Users\\gui\\source\\repos\\AtividadesEntra212025\\Encapsulamento\\Encapsulamento\\Operacao.cs",
+              "RelativeToolTip": "Encapsulamento\\Operacao.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAqwHkAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T16:00:36.362Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\gui\\source\\repos\\AtividadesEntra212025\\Encapsulamento\\Encapsulamento\\Program.cs",
+              "RelativeDocumentMoniker": "Encapsulamento\\Program.cs",
+              "ToolTip": "C:\\Users\\gui\\source\\repos\\AtividadesEntra212025\\Encapsulamento\\Encapsulamento\\Program.cs",
+              "RelativeToolTip": "Encapsulamento\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T15:27:20.607Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ContaPoupanca.cs",
+              "DocumentMoniker": "C:\\Users\\gui\\source\\repos\\AtividadesEntra212025\\Encapsulamento\\Encapsulamento\\ContaPoupanca.cs",
+              "RelativeDocumentMoniker": "Encapsulamento\\ContaPoupanca.cs",
+              "ToolTip": "C:\\Users\\gui\\source\\repos\\AtividadesEntra212025\\Encapsulamento\\Encapsulamento\\ContaPoupanca.cs",
+              "RelativeToolTip": "Encapsulamento\\ContaPoupanca.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T15:27:20.638Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ContaCorrente.cs",
+              "DocumentMoniker": "C:\\Users\\gui\\source\\repos\\AtividadesEntra212025\\Encapsulamento\\Encapsulamento\\ContaCorrente.cs",
+              "RelativeDocumentMoniker": "Encapsulamento\\ContaCorrente.cs",
+              "ToolTip": "C:\\Users\\gui\\source\\repos\\AtividadesEntra212025\\Encapsulamento\\Encapsulamento\\ContaCorrente.cs",
+              "RelativeToolTip": "Encapsulamento\\ContaCorrente.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABMAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T15:27:20.641Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ContaBancaria.cs",
+              "DocumentMoniker": "C:\\Users\\gui\\source\\repos\\AtividadesEntra212025\\Encapsulamento\\Encapsulamento\\ContaBancaria.cs",
+              "RelativeDocumentMoniker": "Encapsulamento\\ContaBancaria.cs",
+              "ToolTip": "C:\\Users\\gui\\source\\repos\\AtividadesEntra212025\\Encapsulamento\\Encapsulamento\\ContaBancaria.cs",
+              "RelativeToolTip": "Encapsulamento\\ContaBancaria.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAcwEQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T15:27:20.643Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
