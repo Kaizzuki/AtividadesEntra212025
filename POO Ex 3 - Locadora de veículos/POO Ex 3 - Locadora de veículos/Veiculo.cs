@@ -53,7 +53,8 @@ namespace POO_Ex_3___Locadora_de_veículos
 
         public void Exibir()
         {
-            Console.WriteLine($"Veiculo: {_modelo} | Marca: {_marca} | Ano: {_ano}");
+            Console.WriteLine($"Marca: {_marca} | Veiculo: {_modelo}  | Ano: {_ano}");
+            Console.WriteLine($"Valor diaria: R${_baseDiariaAluguel}");
         }
     }
 }

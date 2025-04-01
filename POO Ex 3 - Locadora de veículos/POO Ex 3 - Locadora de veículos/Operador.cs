@@ -10,6 +10,24 @@ namespace POO_Ex_3___Locadora_de_veículos
     public class Operador
     {
         private List<IVeiculo> listaVeiculos = new List<IVeiculo>();
+        public void ExibirLista()
+        {
+            if (listaVeiculos.Count <= 0)
+            {
+                Console.WriteLine("Nenhum veiculo cadastrado!");
+            }
+            else
+            {
+                Console.WriteLine("Veiculos: ");
+                foreach (IVeiculo veiculo in listaVeiculos)
+                {
+                    Console.WriteLine("---------");
+                    veiculo.Exibir();
+                }
+                Console.WriteLine("---------");
+            }
+        }
+
         public double AskNumber(string? Pergunta)
         {
             double resposta;
@@ -82,8 +100,8 @@ namespace POO_Ex_3___Locadora_de_veículos
         }
         public Carro CadastrarCarro()
         {
-            string modelo = AskString("Qual o modelo do carro");
             string marca = AskString("Qual a marca do carro");
+            string modelo = AskString("Qual o modelo do carro");
             int ano = (int)AskNumber("Qual o ano do carro");
             decimal aluguel = (decimal)AskNumber("Qual o valor da diaria base do aluguel");
 
@@ -92,8 +110,8 @@ namespace POO_Ex_3___Locadora_de_veículos
         }
         public Moto CadastrarMoto()
         {
-            string modelo = AskString("Qual o modelo da moto");
             string marca = AskString("Qual a marca da moto");
+            string modelo = AskString("Qual o modelo da moto");
             int ano = (int)AskNumber("Qual o ano da moto");
             decimal aluguel = (decimal)AskNumber("Qual o valor da diaria base do aluguel");
 
@@ -103,14 +121,38 @@ namespace POO_Ex_3___Locadora_de_veículos
         }
         public Caminhao CadastrarCaminhao()
         {
-            string modelo = AskString("Qual o modelo do caminhão");
             string marca = AskString("Qual a marca do caminhão");
+            string modelo = AskString("Qual o modelo do caminhão");
             int ano = (int)AskNumber("Qual o ano do caminhão");
             decimal aluguel = (decimal)AskNumber("Qual o valor da diaria base do aluguel");
 
             Caminhao novoCaminhao = new Caminhao(modelo, marca, ano, aluguel);
             return novoCaminhao;
 
+        }
+        public void alugar()
+        {
+            //Selecionar veiculo
+            ExibirLista();
+            if (listaVeiculos.Count <= 0)
+                return;
+            string marcaVeiculo = AskString("Digite a marca do veiculo");
+            string modeloVeiculo = AskString("Digite o modelo do veiculo");
+            int anoVeiculo = (int)AskNumber("Digite o ano do veiculo");
+
+            foreach (Veiculo veiculo in listaVeiculos)
+            {
+                //Confirmação
+                bool mesmoModelo = veiculo.Modelo.Equals(modeloVeiculo, StringComparison.OrdinalIgnoreCase);
+                bool mesmoMarca = veiculo.Marca.Equals(marcaVeiculo, StringComparison.OrdinalIgnoreCase);
+                bool mesmoAno = veiculo.Ano.Equals(anoVeiculo);
+
+                if (mesmoModelo && mesmoAno && mesmoMarca)
+                {
+                    int dias = (int)AskNumber("Digite por quantos dias deseja alugar");
+                    Console.WriteLine($"O valor de aluguel de {dias} dias é: {veiculo.CalcularAluguel(dias)}");
+                }
+            }
         }
 
         //MENUS
@@ -124,7 +166,7 @@ namespace POO_Ex_3___Locadora_de_veículos
 
                 Console.WriteLine("1 - Cadastrar novo veiculo");
                 Console.WriteLine("2 - Visualizar veiculos cadastrados");
-                Console.WriteLine("");
+                Console.WriteLine("3 - Alugar veiculo");
                 Console.WriteLine("0 - Sair");
 
                 string escolha = AskString("Escolha");
@@ -132,22 +174,18 @@ namespace POO_Ex_3___Locadora_de_veículos
                 switch (escolha)
                 {
                     case "1":
+                        Console.Clear();
                         CadastrarNovoVeiculo();
                         break;
 
                     case "2":
+                        Console.Clear();
+                        ExibirLista();
+                        break;
 
-                        if (listaVeiculos.Count <= 0)
-                        {
-                            Console.WriteLine("Nenhum veiculo cadastrado!");
-                        }
-
-                        foreach (IVeiculo veiculo in listaVeiculos)
-                        {
-                            Console.WriteLine("---------");
-                            veiculo.Exibir();
-                            Console.WriteLine("O aluguel por 5 dias é {0}", veiculo.CalcularAluguel(5));
-                        }
+                    case "3":
+                        Console.Clear();
+                        alugar();
                         break;
 
                     case "0":
