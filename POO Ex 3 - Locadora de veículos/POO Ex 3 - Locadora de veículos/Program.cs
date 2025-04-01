@@ -26,8 +26,9 @@ namespace POO_Ex_3___Locadora_de_veículos
             Console.WriteLine("O aluguel por 5 dias é {0}", caminhone.CalcularAluguel(5));
             Console.WriteLine("---");
 
-            operador.CadastrarNovoVeiculo();
+            operador.MenuPrincipal();
         }
+         
 
 
 

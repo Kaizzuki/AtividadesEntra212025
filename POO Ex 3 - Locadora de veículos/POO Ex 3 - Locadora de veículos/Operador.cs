@@ -57,8 +57,8 @@ namespace POO_Ex_3___Locadora_de_veículos
         //CADASTROS
         public void CadastrarNovoVeiculo()
         {
-            string opcao = this.AskString("Digite o tipo do veiculo");
-            opcao.ToLower();
+            Console.WriteLine("Tipos: Carro, Caminhao, Moto");
+            string opcao = this.AskString("Digite o tipo do veiculo").ToLower();
 
             switch(opcao)
             {
@@ -113,5 +113,49 @@ namespace POO_Ex_3___Locadora_de_veículos
 
         }
 
+        //MENUS
+        public void MenuPrincipal()
+        {
+            bool ativo = true;
+
+            while (ativo)
+            {
+                Console.WriteLine("------ Menu Locadora ------");
+
+                Console.WriteLine("1 - Cadastrar novo veiculo");
+                Console.WriteLine("2 - Visualizar veiculos cadastrados");
+                Console.WriteLine("");
+                Console.WriteLine("0 - Sair");
+
+                string escolha = AskString("Escolha");
+
+                switch (escolha)
+                {
+                    case "1":
+                        CadastrarNovoVeiculo();
+                        break;
+
+                    case "2":
+
+                        if (listaVeiculos.Count <= 0)
+                        {
+                            Console.WriteLine("Nenhum veiculo cadastrado!");
+                        }
+
+                        foreach (IVeiculo veiculo in listaVeiculos)
+                        {
+                            Console.WriteLine("---------");
+                            veiculo.Exibir();
+                            Console.WriteLine("O aluguel por 5 dias é {0}", veiculo.CalcularAluguel(5));
+                        }
+                        break;
+
+                    case "0":
+                        Console.WriteLine("Até mais!");
+                        ativo = false;
+                        break;
+                }
+            }
+        }
     }
 }
